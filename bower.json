@@ -1,0 +1,22 @@
+{
+  "name": "drewnoikolor",
+  "description": "single page web app for polish based company making and selling wodden childrens toys built with angular js",
+  "main": "index.js",
+  "authors": [
+    "James Dungan inSpired"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JamesDungan/Drewno-I-Kolor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.7",
+    "angular-route": "^1.6.7"
+  }
+}
