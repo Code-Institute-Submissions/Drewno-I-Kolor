@@ -1,0 +1,15 @@
+<div class ="container-fluid text-center">
+	<h2>{{category}}</h2>
+	<br/>
+	<div class="row">
+		<div id="prod-panel" class= "col-md-4 col-sm-6 col-xs-12" ng-repeat = "prod in products">
+			<div class ="panel panel-default">  
+				<div class="panel-heading" >{{prod.name}}</div>
+				<div class = "panel-body">
+					<img ng-src="{{prod.imageLocation}}">
+				</div>
+			</div> 
+		</div>
+		
+	</div>
+</div>

@@ -1,0 +1,72 @@
+
+/* remove navbar-brand padding for firefox bug workaround*/  
+.navbar {
+	background-color: #1E7E7A;
+	margin-bottom: 0;
+	border:none;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand {
+	height: 120px ;
+}
+.navbar-brand>img {
+	height: 100%;
+  	padding: 5px;
+  	width: auto;
+  	border-radius: 12%;
+}
+
+.nav >li >a {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 45px;
+	
+}
+
+.navbar-default .navbar-nav  > li > a{
+ 	 color: #D7BDAE;
+ 	 
+ }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+ }
+
+.navbar-default .navbar-nav .open 
+	.dropdown-menu {
+		background-color: #1E7E7A;
+	}
+.navbar-default .navbar-nav .open 
+	.dropdown-menu > li > a {
+		color: #D7BDAE;
+	}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
+	background-color: #1E7E7A;
+	color: #fff;
+}
+
+@media only screen and (max-width: 767px){
+	.nav >li >a {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.navbar-default .navbar-nav .open 
+	.dropdown-menu > li > a {
+		color: #D7BDAE;
+	}
+	.navbar-default .navbar-nav .open 
+	.dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open 
+	.dropdown-menu > li > a:focus {
+		color: #fff;
+	}
+}
+
+.navbar-right>li>a {
+	font-size: 1.3em
+}

@@ -1,0 +1,36 @@
+ 
+.footer a{
+ 	 color: #000;
+ 	 
+ }
+
+ .footer a:hover {
+ 	text-decoration: none;
+ 	color:#fff;
+ }
+
+ .footer p{
+ 	margin: 0;
+ }
+
+
+.footer {
+	
+	
+	height: 100px;
+	line-height: 100px;
+	background-color: #1E7E7A;
+	border-radius: 3px;
+}
+
+.phonedetails{
+	margin-left:5px;
+	width: 50%;
+}
+
+
+ a{
+	
+	margin: 0 5px;
+	
+}

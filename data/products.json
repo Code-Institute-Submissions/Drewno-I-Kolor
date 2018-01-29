@@ -1,0 +1,56 @@
+[
+  {
+    "category":"Wooden Toys",
+    "id":"wt001",
+    "name":"cat",
+    "description":"this is a wooden cat",
+    "materials":"wood",
+    "price":"100zl",
+    "imageLocation":"assets/img/catAndDog2.jpeg"
+  },
+  {
+    "category":"Wooden Toys",
+    "id":"wt002",
+    "name":"dog",
+    "description":"this is a wooden dog",
+    "materials":"wood",
+    "price":"100zl",
+    "imageLocation":"assets/img/catAndDog2.jpeg"
+  },
+  {
+    "category":"Wooden Toys",
+    "id":"wt003",
+    "name":"fish",
+    "description":"this is a wooden fish",
+    "materials":"wood",
+    "price":"100zl",
+    "imageLocation":"assets/img/catAndDog2.jpeg"
+  },
+  {
+    "category":"Wooden Toys",
+    "id":"wt004",
+    "name":"parrot",
+    "description":"this is a wooden parrot",
+    "materials":"wood",
+    "price":"100zl",
+    "imageLocation":"assets/img/catAndDog2.jpeg"
+  },
+  {
+    "category":"Wooden Toys",
+    "id":"wt005",
+    "name":"elephant",
+    "description":"this is a wooden elephant",
+    "materials":"wood",
+    "price":"100zl",
+    "imageLocation":"assets/img/catAndDog2.jpeg"
+  },
+  {
+    "category":"Wooden Toys",
+    "id":"wt006",
+    "name":"girraffe",
+    "description":"this is a wooden girraffe",
+    "materials":"wood",
+    "price":"100zl",
+    "imageLocation":"assets/img/catAndDog2.jpeg"
+  }
+]

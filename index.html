@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='dikApp'>
 <head>
-	<title>Drewno I Kolor Home</title>
-	<base href="/">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <base href="/"> -->
+	<title>Drewno I Kolor</title>
+
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+	
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/navStyle.css">
+	<link rel="stylesheet" type="text/css" href="css/footStyle.css">
+	<link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="angular_bootstrap/ui-bootstrap-custom-2.5.0.js"></script>
+	<script type="text/javascript" src="angular_bootstrap/ui-bootstrap-custom-tpls-2.5.0.js"></script>
 </head>
-<body>
-	<div class="jumbotron">
-		<h2>Welcome to Drewno I Kolor!!</h2>
-	</div>
-<script type="text/javascript" src="bower_components/angular/angular.js"></script>
-<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+<body >
+
+
+   <div id="wrapper" class ="col-md-10 col-md-offset-1"> 
+  
+        <dik-nav></dik-nav>
+    	
+     	<div class="main" ng-view></div> 
+        
+      	<dik-footer></dik-footer>
+
+ 	</div>
+
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/directive.js"></script>
+	<script type="text/javascript" src="js/factory.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+	
 </body>
 </html>
