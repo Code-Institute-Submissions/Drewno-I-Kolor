@@ -19,6 +19,10 @@ var app = angular.module('dikApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
 			templateUrl: "templates/products/products.html",
 			controller: "ProductsController"
 		})
+		.when("/products/:id",{
+			templateUrl: "templates/products/singleProduct.html",
+			controller: "ProductsController"
+		})
 		.otherwise({
 			redirectTo: "/home"
 	});

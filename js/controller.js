@@ -1,13 +1,18 @@
-app.controller('ProductsController', ['$scope', 'productFactory', '$location', function($scope, productFactory, $location){
+app.controller('ProductsController', ['$scope', 'productFactory', '$location','$routeParams', function($scope, productFactory, $location, $routeParams){
 		
-	$scope.products;
+	
 	$scope.path;
 	$scope.category;
+	$scope.products;
 
+	$scope.id = $routeParams.id;
 
-	getCustomers();
+	specifyCategory();
+	getProducts();
+	
+	
 
-	function getCustomers(){
+	function getProducts(){
 		productFactory.getProducts()
 		.then(function (response){
 			$scope.products = response.data;
@@ -16,14 +21,24 @@ app.controller('ProductsController', ['$scope', 'productFactory', '$location', f
 			});
 	}
 
-	$scope.path = $location.path();
 	
-	if($scope.path == "/products/woodentoys"){
-		$scope.category = "Wooden Toys" 
-	} else if ($scope.path == "/products/woodenaccessories"){
-		$scope.category = "Wooden Accessories" 
-	} else {
-		$scope.category = "Special Offers" 
+
+	function specifyCategory(){
+			$scope.path = $location.path();
+	
+		if($scope.path == "/products/woodentoys"){
+			$scope.category = "Wooden Toys" 
+		} else if ($scope.path == "/products/woodenaccessories"){
+			$scope.category = "Wooden Accessories" 
+		} else {
+			$scope.category = "Special Offers" 
+		}
+
+
+
+		
 	}
+	
 		
 }]);
+
