@@ -1,72 +1,70 @@
-
-a{
+a {
 	color: #000;
 }
-a:hover{
+
+a:hover {
 	text-decoration: none;
 }
 
-#wrapper{
-		
-	
-	display:flex;
-	min-height:100vh;
-	flex-direction:column;
+#wrapper {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 	padding-right: 0;
-	padding-left:0;
+	padding-left: 0;
 }
 
-
-.main{
-	flex:1;
+.main {
+	flex: 1;
 }
+
 .jumbotron {
 	margin-bottom: 0;
 	background-color: #ffffff;
 	margin-right: 15%;
-	margin-left:15%;
+	margin-left: 15%;
 }
 
-.jumbotron p{
+.jumbotron p {
 	font-size: 18px;
 }
 
 #welcome {
 	margin-top: 0;
 }
-#myCarousel{
+
+#myCarousel {
 	margin-bottom: 0px;
 	margin-right: 15%;
-	margin-left:15%;
+	margin-left: 15%;
 	
+}
+
+@media only screen and (max-width: 768px) {
+	#myCarousel{
+		margin-right: 0;
+		margin-left:0;
 	}
 
-
-	
-	@media only screen and (max-width: 768px){
-		#myCarousel{
-			margin-right: 0;
-			margin-left:0;
-		}
-		.jumbotron {
-	
-			margin-right: 0%;
-			margin-left:0%;
-		}
-
+	.jumbotron {
+		margin-right: 0%;
+		margin-left:0%;
 	}
 
-	.carousel-inner{
-		border-radius: 6px;
-	}
+}
 
-	
+#myCarousel a {
+	margin :0;
+}
 
-#prod-panel img{
+#prod-panel img {
 	max-width: 100%;
 }	
 
-/*.slide img{
-	width:100%;
-	height:auto;
-}*/
+#singleProduct {
+	margin-bottom: 63px;
+}
+
+#singleProduct img, #prod-panel img {
+	border-radius: 6px;
+}

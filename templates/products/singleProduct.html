@@ -1,8 +1,8 @@
 <div class="container-fluid" ng-repeat = "prod in products | filter:id">
 	<h2 class="text-center">{{prod.name}}</h2>
-	<div class="row">
-		<div class ="panel panel-default col-md-6">
-			<img ng-src ="{{prod.imageLocation}}" class="img-responsive" />
+	<div class="row" id ="singleProduct">
+		<div class ="col-md-6">
+			<img ng-src ="{{prod.imageLocation}}" class="img-responsive"/>
 		</div>
 		<div class="col-md-6">
 			<p>

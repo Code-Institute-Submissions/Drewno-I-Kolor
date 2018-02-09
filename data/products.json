@@ -1,137 +1,137 @@
 [
   {
-    "category":"Wooden Toys",
-    "id":"wt001",
-    "name":"cat",
-    "description":"this is a wooden cat",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Wooden Toys",
+    "id": "wt001",
+    "name": "cat",
+    "description": "this is a wooden cat",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Wooden Toys",
-    "id":"wt002",
-    "name":"dog",
-    "description":"this is a wooden dog",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Wooden Toys",
+    "id": "wt002",
+    "name": "dog",
+    "description": "this is a wooden dog",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Wooden Toys",
-    "id":"wt003",
-    "name":"fish",
-    "description":"this is a wooden fish",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Wooden Toys",
+    "id": "wt003",
+    "name": "fish",
+    "description": "this is a wooden fish",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Wooden Toys",
-    "id":"wt004",
-    "name":"parrot",
-    "description":"this is a wooden parrot",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Wooden Toys",
+    "id": "wt004",
+    "name": "parrot",
+    "description": "this is a wooden parrot",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Wooden Toys",
-    "id":"wt005",
-    "name":"elephant",
-    "description":"this is a wooden elephant",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Wooden Toys",
+    "id": "wt005",
+    "name": "elephant",
+    "description": "this is a wooden elephant",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Wooden Toys",
-    "id":"wt006",
-    "name":"girraffe",
-    "description":"this is a wooden girraffe",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Wooden Toys",
+    "id": "wt006",
+    "name": "girraffe",
+    "description": "this is a wooden girraffe",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Wooden Accessories",
-    "id":"wa001",
-    "name":"car",
-    "description":"this is a wooden cat",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Wooden Accessories",
+    "id": "wa001",
+    "name": "car",
+    "description": "this is a wooden cat",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Wooden Accessories",
-    "id":"wa002",
-    "name":"bench",
-    "description":"this is a wooden dog",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Wooden Accessories",
+    "id": "wa002",
+    "name": "bench",
+    "description": "this is a wooden dog",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Wooden Accessories",
-    "id":"wa003",
-    "name":"bowl",
-    "description":"this is a wooden fish",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Wooden Accessories",
+    "id": "wa003",
+    "name": "bowl",
+    "description": "this is a wooden fish",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Wooden Accessories",
-    "id":"wa004",
-    "name":"shelf",
-    "description":"this is a wooden parrot",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Wooden Accessories",
+    "id": "wa004",
+    "name": "shelf",
+    "description": "this is a wooden parrot",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Wooden Accessories",
-    "id":"wa005",
-    "name":"table",
-    "description":"this is a wooden elephant",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Wooden Accessories",
+    "id": "wa005",
+    "name": "table",
+    "description": "this is a wooden elephant",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Wooden Accessories",
-    "id":"wa006",
-    "name":"stool",
-    "description":"this is a wooden girraffe",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
-  },
-   {
-    "category":"Special Offers",
-    "id":"so001",
-    "name":"Special Offers1",
-    "description":"this is a wooden parrot",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Wooden Accessories",
+    "id": "wa006",
+    "name": "stool",
+    "description": "this is a wooden girraffe",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Special Offers",
-    "id":"so002",
-    "name":"Special Offers2",
-    "description":"this is a wooden elephant",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Special Offers",
+    "id": "so001",
+    "name": "Special Offers1",
+    "description": "this is a wooden parrot",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   },
   {
-    "category":"Special Offers",
-    "id":"so003",
-    "name":"Special Offers3",
-    "description":"this is a wooden girraffe",
-    "materials":"wood",
-    "price":"100zl",
-    "imageLocation":"assets/img/catAndDog2.jpeg"
+    "category": "Special Offers",
+    "id": "so002",
+    "name": "Special Offers2",
+    "description": "this is a wooden elephant",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
+  },
+  {
+    "category": "Special Offers",
+    "id": "so003",
+    "name": "Special Offers3",
+    "description": "this is a wooden girraffe",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   }
 ]
