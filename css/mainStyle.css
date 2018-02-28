@@ -1,3 +1,5 @@
+
+
 a {
 	color: #000;
 }
@@ -12,6 +14,7 @@ a:hover {
 	flex-direction: column;
 	padding-right: 0;
 	padding-left: 0;
+	
 }
 
 .main {
@@ -21,8 +24,8 @@ a:hover {
 .jumbotron {
 	margin-bottom: 0;
 	background-color: #ffffff;
-	margin-right: 15%;
-	margin-left: 15%;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 .jumbotron p {
@@ -40,7 +43,7 @@ a:hover {
 	
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	#myCarousel{
 		margin-right: 0;
 		margin-left:0;
@@ -50,12 +53,17 @@ a:hover {
 		margin-right: 0%;
 		margin-left:0%;
 	}
+	.jumbotron p {
+		font-size: 15px;
+	}
 
 }
 
 #myCarousel a {
 	margin :0;
+	
 }
+
 
 #prod-panel img {
 	max-width: 100%;
@@ -68,3 +76,48 @@ a:hover {
 #singleProduct img, #prod-panel img {
 	border-radius: 6px;
 }
+
+legend {
+	width:auto;
+	border-radius: 5px;
+	border: 1px solid #999;
+	padding: 4px 15px;
+	background-color:#ffffff;
+}
+fieldset {
+	/* width: 450px; */
+	border: 1px solid #999;
+	border-radius: 20px;
+	padding: 20px;
+	margin-bottom: 50px;
+	background-color:rgba(217, 250, 186, 0.938);
+}
+
+#map {
+	height:464px; 
+	width:100%;
+	border: 1px solid #999;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color:rgba(217, 250, 186, 0.938);
+	
+}
+
+/* #map-section {
+	margin-left: 10px;
+} */
+
+
+
+fieldset .btn {
+	color:#000;
+	background-color: #1E7E7A;
+	border: 1px solid #999; 
+}
+
+
+
+
+
+

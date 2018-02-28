@@ -27,7 +27,8 @@ var app = angular.module('dikApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
 				templateUrl: "templates/bespokeservice.html"
 			})
 			.when("/contactus", {
-				templateUrl: "templates/contactus.html"
+				templateUrl: "templates/contactus.html",
+				controller: "MapController"
 			})
 			.when("/about", {
 				templateUrl: "templates/about.html"

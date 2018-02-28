@@ -30,5 +30,8 @@ app.controller('ProductsController', ['$scope', 'productFactory', '$location', '
 		}
 	}
 
-}]);
+}])
+	.controller('MapController',['$scope','MapService', function($scope, MapService){
+		MapService.init();
+	}]);
 

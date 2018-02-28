@@ -1,5 +1,10 @@
  .footer a {
- 	 color: #000;
+	  color: #000;
+	 
+ }
+
+ .social-icon {
+	 font-size: 20px;
  }
 
  .footer a:hover {
@@ -12,7 +17,7 @@
  }
 
 .footer {
-	min-height: 100px;
+	min-height: 102px;
 	background-color: #1E7E7A;
 	border-radius: 3px;
 	
