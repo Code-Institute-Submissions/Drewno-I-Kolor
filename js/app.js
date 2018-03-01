@@ -5,7 +5,7 @@ var app = angular.module('dikApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
 		$routeProvider
 			.when("/home", {
 				templateUrl: "templates/home.html",
-
+				controller: "ProductsController"
 			})
 			.when("/products/woodentoys", {
 				templateUrl: "templates/products/products.html",

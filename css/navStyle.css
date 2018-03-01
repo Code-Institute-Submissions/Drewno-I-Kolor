@@ -64,6 +64,10 @@
 	.dropdown-menu > li > a:focus {
 		color: #fff;
 	}
+	.navbar-brand>img{
+		margin-left:15px;
+	}
+
 }
 
 @media (max-width: 992px){

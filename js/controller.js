@@ -20,8 +20,10 @@ app.controller('ProductsController', ['$scope', 'productFactory', '$location', '
 
 	function specifyCategory() {
 		$scope.path = $location.path();
-
-		if ($scope.path == "/products/woodentoys") {
+		if ($scope.path == "/home"){
+			$scope.category = "Special Offers"
+		}
+		else if ($scope.path == "/products/woodentoys") {
 			$scope.category = "Wooden Toys"
 		} else if ($scope.path == "/products/woodenaccessories") {
 			$scope.category = "Wooden Accessories"

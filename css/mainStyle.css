@@ -23,9 +23,9 @@ a:hover {
 
 .jumbotron {
 	margin-bottom: 0;
-	background-color: #ffffff;
-	margin-right: 10%;
-	margin-left: 10%;
+	background-color:#ffffff;
+	/* margin-right: 10%;
+	margin-left: 10%; */
 }
 
 .jumbotron p {
@@ -38,8 +38,19 @@ a:hover {
 
 #myCarousel {
 	margin-bottom: 0px;
-	margin-right: 15%;
-	margin-left: 15%;
+	margin-right: 18%;
+	margin-left: 18%;
+	
+}
+
+.carousel-caption{
+	border: 1px solid rgba(30, 126, 123);
+	border-radius: 5px;
+	background-color: rgba(30, 126, 123, 0.6);
+}
+
+#special-offers{
+	padding:0;
 	
 }
 
@@ -47,6 +58,7 @@ a:hover {
 	#myCarousel{
 		margin-right: 0;
 		margin-left:0;
+		padding: 0;
 	}
 
 	.jumbotron {
@@ -56,6 +68,12 @@ a:hover {
 	.jumbotron p {
 		font-size: 15px;
 	}
+	
+	.container-fluid {
+		padding-left:0;
+		padding-right:0;
+	}
+
 
 }
 
@@ -63,9 +81,20 @@ a:hover {
 	margin :0;
 	
 }
+#special-prod-panel{
+	background-color: rgb(36,78,78);
+	border-radius: 20px;
+	margin-bottom: 3px;
+	border-right: 3px solid white;
+}
 
+#special-header{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
 
-#prod-panel img {
+#prod-panel img, #special-prod-panel img  {
 	max-width: 100%;
 }	
 
@@ -104,16 +133,14 @@ fieldset {
 	
 }
 
-/* #map-section {
-	margin-left: 10px;
-} */
-
-
-
 fieldset .btn {
-	color:#000;
-	background-color: #1E7E7A;
+	color:#D7BDAE;
+	background-color: rgb(36,78,78);
 	border: 1px solid #999; 
+	margin-left: 15px;
+}
+fieldset .btn:hover{
+	color:#ffffff;
 }
 
 

@@ -12,37 +12,65 @@
   </div>
 <!-- !welcome jumbotron -->
  
-<div class="row">
 
-    <div uib-carousel id="myCarousel" active="0" no-transition="false" no-wrap="false" interval="5000">
+
+    <div uib-carousel id="myCarousel" active="0" no-transition="false" no-wrap="false" interval="6000">
     
+      
       <div class="slide" uib-slide index="0">
-        <img src="assets/img/catAndDog2.jpeg" alt="cat and dog" class="img-responsive">
-        <div class="carousel-caption">
-        <h3>Header of Slide1</h3>
-        <p>Details of Slide 1. Lorem Ipsum Blah Blah Blah....</p>
+        <a href ="#/products/woodentoys">
+          <img src="assets/img/catAndDog2.jpeg" alt="cat and dog" class="img-responsive">
+          <div class="carousel-caption">
+              <h2>Wooden Toys</h2>
+              <p>Something special for your special angel</p>
+          </div>
+        </a>
       </div>
-    </div>
+      
 
     <div class="slide" uib-slide index="1">
-      <img src="assets/img/threeCats2.jpeg" alt="3 cats" class="img-responsive">
-      <div class="carousel-caption">
-        <h3>Header of Slide2</h3>
-        <p>Details of Slide 2. Lorem Ipsum Blah Blah Blah....</p>
-      </div>
+      <a href ="#/products/woodenaccessories">
+        <img src="assets/img/threeCats2.jpeg" alt="3 cats" class="img-responsive">
+        <div class="carousel-caption">
+          <h2>Wooden Accessories</h2>
+          <p>All sorts of useful household items and great gift ideas</p>
+        </div>
+      </a>
     </div>
 
     <div class="slide" uib-slide index="2">
-      <img src="assets/img/trainAndBlocks2.jpeg" alt="train and blocks" class="img-responsive">
-      <div class="carousel-caption">
-        <h3>Header of Slide3</h3>
-        <p>Details of Slide 3. Lorem Ipsum Blah Blah Blah....</p>
-      </div>
+      <a href ="#/bespokeservice">
+        <img src="assets/img/trainAndBlocks2.jpeg" alt="train and blocks" class="img-responsive">
+        <div class="carousel-caption">
+          <h2>Bespoke Service</h2>
+          <p>We also provide a custom made products service</p>
+          <p>Please get in touch with us via our Contact Form if you have any special requests</p>
+        </div>
+      </a>
     </div>
 
    </div>
 <!-- !myCarousel -->
 
 
+
+  <div class="row text-center" id="special-offers">
+    
+      <h2 id="special-header">{{category}}</h2>
+      <!-- <br/> -->
+     
+        <div id="special-prod-panel" class= "col-lg-4 col-md-4 col-sm-4 col-xs-12" ng-repeat = "prod in products | filter:category">
+          <a href="#/products/{{prod.id}}">
+            <div class ="panel panel-default">  
+              <div class="panel-heading" >{{prod.name}}</div>
+              <div class = "panel-body">
+                <img ng-src="{{prod.imageLocation}}" />
+              </div>
+            
+          </a>
+        </div>
+        
+      </div>
+ 
   </div>
 </div>
