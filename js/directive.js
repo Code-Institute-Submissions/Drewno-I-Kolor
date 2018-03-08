@@ -9,5 +9,11 @@ app.directive('dikNav', function () {
             restrict: 'AE',
             templateUrl: 'templates/directives/dikFooter.html'
         };
+    })
+    .directive('dikContact', function () {
+        return {
+            restrict: 'AE',
+            templateUrl: 'templates/directives/contact.html'
+        };
     });
     

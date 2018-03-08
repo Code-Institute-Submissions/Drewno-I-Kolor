@@ -133,5 +133,14 @@
     "materials": "wood",
     "price": "100zl",
     "imageLocation": "assets/img/catAndDog2.jpeg"
+  },
+  {
+    "category": "Special Offers",
+    "id": "so004",
+    "name": "Special Offers4",
+    "description": "this is a wooden girraffe",
+    "materials": "wood",
+    "price": "100zl",
+    "imageLocation": "assets/img/catAndDog2.jpeg"
   }
 ]

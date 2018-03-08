@@ -19,6 +19,18 @@ var app = angular.module('dikApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
 				templateUrl: "templates/products/products.html",
 				controller: "ProductsController"
 			})
+			.when("/products/Wooden Accessories", {
+				templateUrl: "templates/products/products.html",
+				controller: "ProductsController"
+			})
+			.when("/products/Wooden Toys", {
+				templateUrl: "templates/products/products.html",
+				controller: "ProductsController"
+			})
+			.when("/products/Special Offers", {
+				templateUrl: "templates/products/products.html",
+				controller: "ProductsController"
+			})
 			.when("/products/:id", {
 				templateUrl: "templates/products/singleProduct.html",
 				controller: "ProductsController"
@@ -28,7 +40,7 @@ var app = angular.module('dikApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap'])
 			})
 			.when("/contactus", {
 				templateUrl: "templates/contactus.html",
-				controller: "MapController"
+				controller: "ContactController"
 			})
 			.when("/about", {
 				templateUrl: "templates/about.html"

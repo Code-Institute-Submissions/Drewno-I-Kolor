@@ -1,5 +1,4 @@
 
-
 a {
 	color: #000;
 }
@@ -21,32 +20,45 @@ a:hover {
 	flex: 1;
 }
 
-.jumbotron {
-	margin-bottom: 0;
-	background-color:#ffffff;
-	/* margin-right: 10%;
-	margin-left: 10%; */
+
+
+#intro {
+	margin-bottom:50px;
+	margin-top:50px;
 }
 
-.jumbotron p {
-	font-size: 18px;
+#intro h2{
+	margin-bottom: 20px;
 }
 
-#welcome {
-	margin-top: 0;
+#intro p, #bespokeContact p {
+	font-size: 17px;
 }
 
-#myCarousel {
+#bespokeContact p{
+	margin-top: 20px;
+	margin-bottom:20px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#mainCarousel {
 	margin-bottom: 0px;
 	margin-right: 18%;
 	margin-left: 18%;
 	
 }
 
+#bespokeCarousel {
+	margin-bottom: 0px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
 .carousel-caption{
 	border: 1px solid rgba(30, 126, 123);
 	border-radius: 5px;
-	background-color: rgba(30, 126, 123, 0.6);
+	background-color: rgba(30, 126, 123, 0.932);
 }
 
 #special-offers{
@@ -55,18 +67,25 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-	#myCarousel{
+	#mainCarousel, #bespokeCarousel{
 		margin-right: 0;
 		margin-left:0;
 		padding: 0;
 	}
 
-	.jumbotron {
+	#intro {
 		margin-right: 0%;
 		margin-left:0%;
+		
 	}
-	.jumbotron p {
+	#intro p {
 		font-size: 15px;
+		padding-left:7%;
+		padding-right:7%;
+	}
+	#intro h2{
+		padding-left:7%;
+		padding-right:7%;	
 	}
 	
 	.container-fluid {
@@ -74,35 +93,48 @@ a:hover {
 		padding-right:0;
 	}
 
+	#singleProduct.col-sm-6, #singleProduct img  {
+		margin: 0 10px;
+	}
 
+	#singleProductBtns{
+		margin: 40px 10px;
+	}
+
+	label {
+		display:none;
+	}
+		
 }
 
-#myCarousel a {
+#mainCarousel a, #bespokeCarousel a {
 	margin :0;
-	
+	opacity: 0.5;
+	color: rgba(30, 126, 123, 0.6);
 }
 #special-prod-panel{
 	background-color: rgb(36,78,78);
 	border-radius: 20px;
 	margin-bottom: 3px;
+	padding-top: .3%;
 	border-right: 3px solid white;
 }
 
 #special-header{
 	padding-bottom: 10px;
 	padding-top: 10px;
-	margin-bottom: 0px;
 }
 
 #prod-panel img, #special-prod-panel img  {
 	max-width: 100%;
+	border-radius:6px;
 }	
 
 #singleProduct {
-	margin-bottom: 63px;
+	margin-bottom: 40px;
 }
 
-#singleProduct img, #prod-panel img {
+#singleProduct img{
 	border-radius: 6px;
 }
 
@@ -123,7 +155,7 @@ fieldset {
 }
 
 #map {
-	height:464px; 
+	height:446px; 
 	width:100%;
 	border: 1px solid #999;
 	border-radius: 20px;
@@ -139,10 +171,36 @@ fieldset .btn {
 	border: 1px solid #999; 
 	margin-left: 15px;
 }
+
+fieldset .btn:focus{
+	color:#D7BDAE;
+}
+
 fieldset .btn:hover{
 	color:#ffffff;
 }
 
+input{
+	margin-bottom: 5px;
+}
+
+
+label.col-sm-2 {
+	padding-left:0px;
+}
+
+.slide img{
+	padding:0;
+}
+
+.carousel-inner{
+	background-color: rgba(30, 126, 123, 0.521); 
+	
+}
+
+#singleProductBtns{
+	margin-bottom:40px;
+}
 
 
 
