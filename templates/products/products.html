@@ -1,18 +1,26 @@
-<div class ="container-fluid text-center">
-	<h2>{{category}}</h2>
-	<br/>
+<div class ="container-fluid">
+	<div class="text-center">
+			<h2 class="">{{category}}</h2>	
+			<h4 class="text-center">Click on a product below for more detail</h4>
+			<p id="or">OR</p>
+			<a href="#/contactus"  class="btn btn-primary" id="ask">
+			Click here to place an order / ask a question
+		</a>
+</div>		
 	<div class="row">
 		<div id="prod-panel" class= "col-md-4 col-sm-6 col-xs-12" ng-repeat = "prod in products | filter:category">
 			<a href="#/products/{{prod.id}}">
 				<div class ="panel panel-default">  
-					<div class="panel-heading" >{{prod.name}}</div>
+					<div class="panel-heading text-center"><strong>{{prod.name}}</strong></div>
 					<div class = "panel-body">
 						<img ng-src="{{prod.imageLocation}}" />
-					<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi autem libero in culpa tempora rerum, iste quae reiciendis quis facilis dolorem blanditiis incidunt aliquam magni molestiae illum molestias asperiores alias?</div>
+					<p id="price"><strong>Price: </strong>{{prod.price}}</p>
 					</div>
 				</div>
 			</a>
 		</div>
 		
 	</div>
+
+
 </div>

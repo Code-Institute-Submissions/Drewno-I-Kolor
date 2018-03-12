@@ -50,13 +50,21 @@ function ($scope, $filter, productFactory, $location, $routeParams) {
 }])
 	.controller('ContactController',['$scope','MapService', function($scope, MapService){
 		MapService.init();
-
+		
 		$scope.submitForm = function(isValid) {
-
 			// check to make sure the form is completely valid
 			if (isValid) {
-			  alert('our form is amazing');
+			emailjs.sendForm("default_service", "test", "contactForm");
+			document.getElementById("thank-you").style.display="block";
+			$scope.reset();
 			}
+		}
+		
+		$scope.reset = function(){
+			$scope.blank = {};
+			$scope.form = angular.copy($scope.blank);
+			$scope.contactForm.$setPristine();
+			$scope.contactForm.$setUntouched();
 		}
 
 	}]);

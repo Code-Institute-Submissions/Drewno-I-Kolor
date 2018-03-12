@@ -1,3 +1,10 @@
+body{
+	font-family: 'Philosopher', sans-serif;
+}
+
+h2{
+	font-size: 50PX;
+}
 
 a {
 	color: #000;
@@ -67,6 +74,10 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
+	h2{
+		font-size: 30px;
+	}
+	
 	#mainCarousel, #bespokeCarousel{
 		margin-right: 0;
 		margin-left:0;
@@ -97,7 +108,11 @@ a:hover {
 		margin: 0 10px;
 	}
 
-	#singleProductBtns{
+	#single-prod-details {
+	margin: 10px 10px;
+	}
+
+	#singleProductBtns {
 		margin: 40px 10px;
 	}
 
@@ -107,12 +122,19 @@ a:hover {
 		
 }
 
+@media (max-width:551px){
+	#ask {
+		margin-bottom:5px;
+		}
+}
+
 #mainCarousel a, #bespokeCarousel a {
 	margin :0;
 	opacity: 0.5;
 	color: rgba(30, 126, 123, 0.6);
 }
 #special-prod-panel{
+
 	background-color: rgb(36,78,78);
 	border-radius: 20px;
 	margin-bottom: 3px;
@@ -202,7 +224,24 @@ label.col-sm-2 {
 	margin-bottom:40px;
 }
 
+#thank-you{
+	display: none;
+}
 
+#price{
+	margin-top:5px;
+}
 
+#prod-panel .panel-heading{
+	background-color:rgba(88, 194, 145, 0.685);
+}
 
+#prod-panel a:hover{
+	color:black;
+}
 
+#ask {
+	color: #fff;
+	background-color: rgb(36,78,78);
+	border: none;
+}
