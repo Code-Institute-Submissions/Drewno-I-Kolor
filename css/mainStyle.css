@@ -38,8 +38,8 @@ a:hover {
 	margin-bottom: 20px;
 }
 
-#intro p, #bespokeContact p {
-	font-size: 17px;
+#intro p, #bespokeContact p, .about {
+	font-size: 18px;
 }
 
 #bespokeContact p{
@@ -78,6 +78,10 @@ a:hover {
 		font-size: 30px;
 	}
 	
+	.about {
+		font-size: 15px;
+	}
+
 	#mainCarousel, #bespokeCarousel{
 		margin-right: 0;
 		margin-left:0;
@@ -240,7 +244,7 @@ label.col-sm-2 {
 	color:black;
 }
 
-#ask {
+#ask, #singleProductBtns .btn {
 	color: #fff;
 	background-color: rgb(36,78,78);
 	border: none;
