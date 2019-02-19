@@ -22,9 +22,6 @@ This site is a single page application powered by Angular JS and styled with Boo
 - Footer
 - Home Page
 - Products pages
-
-### Features Left To Implement
-
 - Services page
 - Contact page
 - About us page
