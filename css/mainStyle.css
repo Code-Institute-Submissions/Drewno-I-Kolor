@@ -62,6 +62,15 @@ a:hover {
 	margin-left: 10%;
 }
 
+.bespokeDescription{
+	padding:10% 5%;
+	font-size: 16px;
+}
+
+.bespoke-slide-img{
+	max-height: 300px;
+}
+
 .carousel-caption{
 	border: 1px solid rgba(30, 126, 123);
 	border-radius: 5px;

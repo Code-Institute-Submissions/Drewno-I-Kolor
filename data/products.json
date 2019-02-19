@@ -2,145 +2,115 @@
   {
     "category": "Wooden Toys",
     "id": "wt001",
-    "name": "cat",
-    "description": "this is a wooden cat",
+    "name": "Train with Blocks",
+    "description": "This is a wonderful toy to fuel the imagination!",
     "materials": "wood",
     "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
+    "imageLocation": "assets/img/trainAndBlocks2.jpeg"
   },
   {
     "category": "Wooden Toys",
     "id": "wt002",
-    "name": "dog",
-    "description": "this is a wooden dog",
+    "name": "Three Coloured Cats",
+    "description": "A Family of Wodden Cats, how cute!",
     "materials": "wood",
     "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
+    "imageLocation": "assets/img/threeCats2.jpeg"
   },
   {
     "category": "Wooden Toys",
     "id": "wt003",
-    "name": "fish",
-    "description": "this is a wooden fish",
+    "name": "Cat and Dog",
+    "description": "Two best friends",
     "materials": "wood",
     "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
+    "imageLocation": "assets/img/catAndDog1.jpeg"
   },
   {
     "category": "Wooden Toys",
     "id": "wt004",
-    "name": "parrot",
-    "description": "this is a wooden parrot",
+    "name": "Pink Cat",
+    "description": "Single Pink Cat",
     "materials": "wood",
     "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
+    "imageLocation": "assets/img/pinkCat1.jpeg"
   },
   {
     "category": "Wooden Toys",
     "id": "wt005",
-    "name": "elephant",
-    "description": "this is a wooden elephant",
+    "name": "Heritage Wooden Train",
+    "description": "This traditional toy is a must have for children of all ages. Classic wooden train is made from different sorts of wood: beech and walnut tree. It’s beautifully made and crafted. Each piece is very strong and sturdy. The set has one engine and three big cars. It will expand you kid’s imagination as they picture the train setting and initiate an active role-playing game.",
     "materials": "wood",
     "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
+    "imageLocation": "assets/img/trainEngine.jpeg"
   },
   {
     "category": "Wooden Toys",
     "id": "wt006",
-    "name": "girraffe",
-    "description": "this is a wooden girraffe",
-    "materials": "wood",
+    "name": "Assorted animals with pouch",
+    "description": "Each one is hand crafted from cherry wood, with the rich natural grain shining. That is why their look and feel of the wood let children make their own fantasy forest world. We recommend to purchase completely forest set. Each animal is also available separately. Animals are packed into the cotton sack.",
+    "materials": "cherry wood",
     "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
+    "imageLocation": "assets/img/animalsWithPouch.jpeg"
   },
   {
-    "category": "Wooden Accessories",
-    "id": "wa001",
-    "name": "car",
-    "description": "this is a wooden cat",
+    "category": "Wooden Toys",
+    "id": "wt007",
+    "name": "Wodden 'Herbie' Car",
+    "description": "The inspiration to make this classical wooden car was VW Bug. Automobile has realistic shapes, it is small copy of famous LoveBug from the classic movie. Car Herbie is made of three different sorts of wood, beech, walnut and maple. The satin smooth surfaces and old-fashioned shapes entertain the younger as well as the older fans of cars.",
     "materials": "wood",
     "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
+    "imageLocation": "assets/img/WoodenHerbieCar.jpeg"
   },
   {
-    "category": "Wooden Accessories",
-    "id": "wa002",
-    "name": "bench",
-    "description": "this is a wooden dog",
+    "category": "Wooden Toys",
+    "id": "wt008",
+    "name": "Screw Tower Blocks",
+    "description": " Screw tower blocks it’s 6 pieces toy, which helps kids develop fine motor skills and think creatively. Toy motivates children to use their hands in order to discover forms. Tower is made from beech and has rectangle base and five different shapes twist pieces",
     "materials": "wood",
     "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
+    "imageLocation": "assets/img/screwTowerBlocks.jpeg"
   },
-  {
-    "category": "Wooden Accessories",
-    "id": "wa003",
-    "name": "bowl",
-    "description": "this is a wooden fish",
-    "materials": "wood",
-    "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
-  },
-  {
-    "category": "Wooden Accessories",
-    "id": "wa004",
-    "name": "shelf",
-    "description": "this is a wooden parrot",
-    "materials": "wood",
-    "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
-  },
-  {
-    "category": "Wooden Accessories",
-    "id": "wa005",
-    "name": "table",
-    "description": "this is a wooden elephant",
-    "materials": "wood",
-    "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
-  },
-  {
-    "category": "Wooden Accessories",
-    "id": "wa006",
-    "name": "stool",
-    "description": "this is a wooden girraffe",
-    "materials": "wood",
-    "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
-  },
+  
   {
     "category": "Special Offers",
     "id": "so001",
-    "name": "Special Offers1",
-    "description": "this is a wooden parrot",
+    "name": "Screw Tower Blocks",
+    "description": " Screw tower blocks it’s 6 pieces toy, which helps kids develop fine motor skills and think creatively. Toy motivates children to use their hands in order to discover forms. Tower is made from beech and has rectangle base and five different shapes twist pieces",
+    
     "materials": "wood",
     "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
+    "imageLocation": "assets/img/screwTowerBlocks.jpeg"
+    
   },
   {
     "category": "Special Offers",
     "id": "so002",
-    "name": "Special Offers2",
-    "description": "this is a wooden elephant",
+    "name": "Heritage Wooden Train",
+    
+    "description": "This traditional toy is a must have for children of all ages. Classic wooden train is made from different sorts of wood: beech and walnut tree. It’s beautifully made and crafted. Each piece is very strong and sturdy. The set has one engine and three big cars. It will expand you kid’s imagination as they picture the train setting and initiate an active role-playing game.",
+    
     "materials": "wood",
     "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
+    "imageLocation": "assets/img/trainEngine.jpeg"
   },
   {
     "category": "Special Offers",
     "id": "so003",
-    "name": "Special Offers3",
-    "description": "this is a wooden girraffe",
+    "name": "Cat and Dog",
+    "description": "Two best friends",
     "materials": "wood",
     "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
+    "imageLocation": "assets/img/catAndDog1.jpeg"
   },
   {
     "category": "Special Offers",
     "id": "so004",
-    "name": "Special Offers4",
-    "description": "this is a wooden girraffe",
+    "name": "Train with Blocks",
+    "description": "This is a wonderful toy to fuel the imagination!",
+    
     "materials": "wood",
     "price": "100zl",
-    "imageLocation": "assets/img/catAndDog2.jpeg"
+    "imageLocation": "assets/img/trainAndBlocks2.jpeg"
   }
 ]
